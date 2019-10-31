@@ -1,0 +1,28 @@
+<mvc:View controllerName="icons.demo_icons.controller.View_2" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>PAGE}">
+					
+						<IconTabBar>
+		<items>
+			<IconTabFilter
+				icon="sap-icon://hint" text="Info content goes here ...">	</IconTabFilter>
+				<IconTabFilter
+				icon="sap-icon://addresses">
+				<Text text="Info content goes here ..." />
+					<Label text="Any character" tooltip="Any character"/>
+				<MaskInput mask="~~~~~~~~~~" placeholderSymbol="_" placeholder="Enter text"></MaskInput>
+			</IconTabFilter>
+			<IconTabFilter
+				icon="sap-icon://doctor" text="adress...">	</IconTabFilter>
+  
+			
+			</items>
+			</IconTabBar>
+
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
